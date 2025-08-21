@@ -13,7 +13,19 @@ An NLP-based app that classifies resumes into job categories using text processi
 Python, NumPy, Pandas, NLTK, Scikit-learn, Seaborn, Streamlit  
 
 ## How to Run
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/DibyanshuSah/Resume-Screening-With-Python.git
-   cd Resume-Screening-With-Python
+
+:: Clone the repository
+git clone https://github.com/DibyanshuSah/Resume-Screening-With-Python.git
+cd Resume-Screening-With-Python
+
+:: Create virtual environment
+python -m venv venv
+
+:: Activate virtual environment
+venv\Scripts\activate
+
+:: Install dependencies
+pip install -r requirements.txt
+
+:: Run the Streamlit app
+streamlit run app.py
