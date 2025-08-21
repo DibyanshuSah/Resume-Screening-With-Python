@@ -15,17 +15,19 @@ Python, NumPy, Pandas, NLTK, Scikit-learn, Seaborn, Streamlit
 ## How to Run
 
 :: Clone the repository
+```bash
 git clone https://github.com/DibyanshuSah/Resume-Screening-With-Python.git
 cd Resume-Screening-With-Python
-
+```
 :: Create virtual environment
+```bash
 python -m venv venv
-
+```
 :: Activate virtual environment
 venv\Scripts\activate
-
+```bash
 :: Install dependencies
 pip install -r requirements.txt
-
+```
 :: Run the Streamlit app
 streamlit run app.py
