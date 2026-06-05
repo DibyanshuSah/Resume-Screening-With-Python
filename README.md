@@ -5,6 +5,7 @@ An NLP-based app that classifies resumes into job categories using text processi
 ## Demo Link : 
 https://resume-screening-with-python-kauwqmhgxqbraz6o3bphzz.streamlit.app/
 
+
 ## Features
 - Upload a resume in PDF, DOCX, or TXT format  
 - Extract and preprocess text (tokenization, stopword removal, lemmatization)  
